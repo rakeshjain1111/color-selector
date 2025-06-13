@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-head{
+    height: 100px;
+    width: 100%;
+    background-color: blueviolet;
+    position: relative;
+    line-height: 100px;
+}
+
+.logo{
+    position: absolute;
+    left: 30px;  
+    font-size: 32px;
+}
+.heading{
+     align-self: center;
+     justify-self: center;
+}
+
+.navbar{
+    background: rgba(86, 1, 11, 0.8);
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover{
+    color: chartreuse;
+    font-weight: 700;
+}
+
+
+.main{
+    width: 100%;
+    height: 500px;
+}
+
+section{
+    width: 100%;
+    height: 500px;
+}
+
+
+.main #indigo{
+    background-color: indigo;
+}
+
+.main #violet{
+    background-color: violet;
+}
+
+.main #green{
+    background-color: green;
+}
+
+.main #yellow{
+    background-color: yellow;
+}
+
+.main #red{
+    background-color: red;
+}
+
+.main #blue{
+    background-color: blue;
+}
+
+.main #orange{
+    background-color: orange;
+}
+
+.active{
+    background-color: rgb(15, 3, 72);
+    padding: 1px;
+}
+
+/* .main:not(:first-child){
+    display: none;
+} */
+   #preloader{
+    background: #000000fb url(../img/loader2.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+
+.footer{
+    background: rgba(7, 1, 86, 0.8);
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+}
+
+.footer h4{
+    align-self: center;
+    justify-self: center;
+}
